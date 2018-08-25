@@ -55,7 +55,7 @@ public class BasicBotProgram extends LinearOpMode{
 
             //set the left and right powers.
             rightDrive.setPower(rightPower);
-            leftDrive.setPower(leftPower);
+            leftDrive.setPower(-1*leftPower);
         }
     }
 }
